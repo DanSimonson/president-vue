@@ -24,7 +24,7 @@
             </div>
             <div class="media-body">
               <h4 class="media-heading"><a v-bind:href="article.url" target="_blank">{{article.title}}</a></h4>
-              <h5><i>by {{article.author}}</i></h5>
+              <p>by {{article.author}}</p>
               <p>{{article.description}}</p>
             </div>
           </li>
